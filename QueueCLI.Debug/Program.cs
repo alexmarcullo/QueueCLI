@@ -21,7 +21,7 @@ namespace QueueCLI.Debug
 
         static void Main(string[] args)
         {
-            var arguments = new Docopt().Apply(UsageConfiguration.USAGE, args, version: "Rabbit CL 1.0.0", exit: true);
+            var arguments = new Docopt().Apply(UsageConfiguration.USAGE, args, version: "Queue CLI 1.0.0", exit: true);
 
             var config = _configuration;
 

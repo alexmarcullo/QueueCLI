@@ -3,7 +3,7 @@
     public static class UsageConfiguration
     {
         public static string USAGE { get => @"
-RabbitCL
+Queue CLI
 Usage:
     rcl configuration --name=<name> --broker=<brokerType> --host=<host> --port=<port> --user=<user> --pass=<pass> --ssl=<ssl>
     rcl updateenv     --name=<name> [--broker=<brokerType> --host=<host> --port=<port> --user=<user> --pass=<pass> --ssl=<ssl>]
