@@ -1,7 +1,13 @@
 # Queue CLI
 Queue CLI theres is a cli for any broker clients
 
-### CLI
+#### Download
+Clik [here](https://github.com/alexmarcullo/QueueCLI/releases/download/1.0.0/QueueCLI.rar) to download the compiled project to use in windows prompt
+
+#### Instalation
+Unzip the files inside a folder, which can be in the root of drive c, and reference the folder in the path (environment variables) to use.
+
+#### Usage
 ```
 Usage:
     rcl configuration --name=<name> --broker=<brokerType> --host=<host> --port=<port> --user=<user> --pass=<pass> --ssl=<ssl>
