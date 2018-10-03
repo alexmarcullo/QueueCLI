@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "QueueCLI.Debug": {
-      "commandName": "Project",
-      "commandLineArgs": "consume --env=ActiveMQ-UAT --queue=ges.event.notifier --ack=false --out=C:\\Users\\agoncalves\\Desktop\\AMQP-Messages"
-    }
-  }
-}
