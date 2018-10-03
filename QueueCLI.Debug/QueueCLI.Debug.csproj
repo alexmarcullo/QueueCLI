@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="docopt.net" Version="0.6.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QueueCLI.Background\QueueCLI.Background.csproj" />
+    <ProjectReference Include="..\QueueCLI.Broker.ActiveMQ\QueueCLI.Broker.ActiveMQ.csproj" />
+    <ProjectReference Include="..\QueueCLI.Broker.RabbitMQ\QueueCLI.Broker.RabbitMQ.csproj" />
+  </ItemGroup>
+
+</Project>
